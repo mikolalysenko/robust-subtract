@@ -1,0 +1,33 @@
+{
+  "name": "robust-subtract",
+  "version": "0.0.0",
+  "description": "Exact subtraction of non-increasing overlapping sequences",
+  "main": "robust-diff.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "robust-sum": "~0.0.3"
+  },
+  "devDependencies": {
+    "tape": "~2.0.0",
+    "tap": "~0.4.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/robust-subtract.git"
+  },
+  "keywords": [
+    "robust",
+    "subtraction",
+    "difference"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/robust-subtract/issues"
+  }
+}
