@@ -6,15 +6,13 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "robust-sum": "~0.0.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "tape": "~2.0.0",
-    "tap": "~0.4.4"
+    "tape": "^2.12.3",
+    "validate-robust-sequence": "^1.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
